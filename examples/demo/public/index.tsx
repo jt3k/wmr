@@ -16,6 +16,7 @@ const ClassFields = lazy(async () => (await sleep(1500), import('./pages/class-f
 const Files = lazy(() => import('./pages/files/index.js'));
 const Environment = lazy(async () => (await import('./pages/environment/index.js')).Environment);
 const JSONView = lazy(async () => (await import('./pages/json.js')).JSONView);
+const AliasOutside = lazy(async () => await import('./pages/alias-outside.js'));
 
 function showLoading() {
 	document.body.classList.add('loading');
@@ -39,6 +40,7 @@ export function App() {
 						<Files path="/files" />
 						<Environment path="/env" />
 						<JSONView path="/json" />
+						<AliasOutside path="/alias-outside" />
 						<NotFound default />
 					</Router>
 				</ErrorBoundary>
