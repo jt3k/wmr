@@ -1,5 +1,19 @@
 # wmr
 
+## 1.7.0
+
+### Minor Changes
+
+- [`f892650`](https://github.com/preactjs/wmr/commit/f892650a084a95cfa21a23969d04fd63f374a7b7) [#549](https://github.com/preactjs/wmr/pull/549) Thanks [@marvinhagemeister](https://github.com/marvinhagemeister)! - Render an error overlay into the page on build errors
+
+### Patch Changes
+
+- [`d3c29ef`](https://github.com/preactjs/wmr/commit/d3c29efb15b20a642278e2582225eefe97bbc3ab) [#560](https://github.com/preactjs/wmr/pull/560) Thanks [@ForsakenHarmony](https://github.com/ForsakenHarmony)! - fix: don't forward to next after responding
+
+* [`51bea9c`](https://github.com/preactjs/wmr/commit/51bea9ce97d8de5ad81060736561f5ce6bcfe55b) [#561](https://github.com/preactjs/wmr/pull/561) Thanks [@ForsakenHarmony](https://github.com/ForsakenHarmony)! - chore: make cli easier to read and add uncaught exception handler
+
+- [`2ce4d36`](https://github.com/preactjs/wmr/commit/2ce4d366921f7e73b595b3de2243c274ad1a0fed) [#558](https://github.com/preactjs/wmr/pull/558) Thanks [@marvinhagemeister](https://github.com/marvinhagemeister)! - Fix stale file content for entry files in watch mode
+
 ## 1.6.0
 
 ### Minor Changes
